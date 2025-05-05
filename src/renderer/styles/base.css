@@ -1,0 +1,13 @@
+:root {
+    --borderColor0: rgb(42, 42, 40);
+    --backgroundColor0: rgb(25, 25, 24);
+    --radius0: 8px;
+    --padding0: 16px;
+}
+
+.surface {
+    background-color: var(--backgroundColor0);
+    border: 1px solid var(--borderColor0);
+    border-radius: 8px;
+    padding: 16px;
+}

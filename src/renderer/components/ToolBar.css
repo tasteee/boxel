@@ -1,0 +1,13 @@
+.ToolBar {
+  padding: 4px;
+  position: absolute;
+  top: 5%;
+  left: 12px;
+  /* width: 48px; */
+  height: 90%;
+  z-index: 20;
+}
+
+.ToolBarBody {
+  padding: 4px;
+}

@@ -1,0 +1,13 @@
+.ColorSquare {
+  /* height: 28px; */
+}
+
+.ColorSquare.isActive {
+  position: relative;
+  bottom: 3px;
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: 0 0 2px white;
+  padding: 2px;
+  height: 30px;
+}

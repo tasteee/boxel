@@ -1,0 +1,8 @@
+.Button.mediumSize, .button--size_md {
+    height: var(--sizes-10);
+    min-width: var(--sizes-10);
+    font-size: var(--font-sizes-sm);
+    line-height: 1.25rem;
+    padding-inline: var(--spacing-4);
+    gap: var(--spacing-2);
+}

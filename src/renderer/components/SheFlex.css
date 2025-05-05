@@ -1,0 +1,127 @@
+/* Base flex classes */
+.sheFlex {
+  display: flex;
+}
+
+/* Direction classes */
+.sheFlexRow {
+  flex-direction: row;
+}
+
+.sheFlexColumn {
+  flex-direction: column;
+}
+
+/* Flex wrap class */
+.sheFlexWrap {
+  flex-wrap: wrap;
+}
+
+/* Horizontal alignment classes (justify-content for row, align-items for column) */
+.sheAlignX-center {
+  justify-content: center;
+}
+
+.sheAlignX-start {
+  justify-content: flex-start;
+}
+
+.sheAlignX-end {
+  justify-content: flex-end;
+}
+
+.sheAlignX-between {
+  justify-content: space-between;
+}
+
+.sheAlignX-around {
+  justify-content: space-around;
+}
+
+.sheAlignX-evenly {
+  justify-content: space-evenly;
+}
+
+/* For column direction, horizontal alignment uses align-items */
+.sheFlexColumn .sheAlignX-center {
+  align-items: center;
+}
+
+.sheFlexColumn .sheAlignX-start {
+  align-items: flex-start;
+}
+
+.sheFlexColumn .sheAlignX-end {
+  align-items: flex-end;
+}
+
+/* Vertical alignment classes (align-items for row, justify-content for column) */
+.sheAlignY-center {
+  align-items: center;
+}
+
+.sheAlignY-start {
+  align-items: flex-start;
+}
+
+.sheAlignY-end {
+  align-items: flex-end;
+}
+
+.sheAlignY-between {
+  align-items: stretch; /* Not directly mappable */
+}
+
+.sheAlignY-around {
+  align-items: stretch; /* Not directly mappable */
+}
+
+.sheAlignY-evenly {
+  align-items: stretch; /* Not directly mappable */
+}
+
+/* For column direction, vertical alignment uses justify-content */
+.sheFlexColumn .sheAlignY-center {
+  justify-content: center;
+}
+
+.sheFlexColumn .sheAlignY-start {
+  justify-content: flex-start;
+}
+
+.sheFlexColumn .sheAlignY-end {
+  justify-content: flex-end;
+}
+
+.sheFlexColumn .sheAlignY-between {
+  justify-content: space-between;
+}
+
+.sheFlexColumn .sheAlignY-around {
+  justify-content: space-around;
+}
+
+.sheFlexColumn .sheAlignY-evenly {
+  justify-content: space-evenly;
+}
+
+/* Position classes */
+.shePositionRelative {
+  position: relative;
+}
+
+.shePositionAbsolute {
+  position: absolute;
+}
+
+.shePositionFixed {
+  position: fixed;
+}
+
+.shePositionSticky {
+  position: sticky;
+}
+
+.shePositionStatic {
+  position: static;
+}
